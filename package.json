@@ -1,8 +1,8 @@
 {
   "name": "rework-color-distinguish",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "rework-color-distinguish is a plugin for Rework, It is easy to seprate foreground from background.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,12 +12,17 @@
   },
   "keywords": [
     "Rework",
-    "color-difference"
+    "color-difference",
+    "CIE2000"
   ],
   "author": "何洋<abruzzi.hraig@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/abruzzihraig/rework-color-distinguish/issues"
   },
-  "homepage": "https://github.com/abruzzihraig/rework-color-distinguish"
+  "homepage": "https://github.com/abruzzihraig/rework-color-distinguish",
+  "dependencies": {
+    "color-diff": "^0.1.4",
+    "rework-visit": "^1.0.0"
+  }
 }
