@@ -14,3 +14,11 @@
 .x {
     color: contrast(#a3d93a);
 }
+
+span {
+    color: contrast(#555);
+}
+
+p {
+    background: contrast(#ddd);
+}
