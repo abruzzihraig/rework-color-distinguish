@@ -4,7 +4,7 @@
   "description": "rework-color-distinguish is a plugin for Rework, It is easy to seprate foreground from background.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha --require should"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/abruzzihraig/rework-color-distinguish",
   "dependencies": {
-    "color-diff": "^0.1.4",
+    "color-diff": "^0.1.5",
     "rework-visit": "^1.0.0"
   },
   "devDependencies": {
