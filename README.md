@@ -4,7 +4,6 @@ rework-color-distinguish is a css preprocess plugin for [Rework](https://github.
 
 it is easier for users to see content including separating foreground from background.  
 More detail about distinguish contrast color in [WCAG](http://www.w3.org/TR/WCAG20/).  
-It is used by Rework Framework
 
 ## Sample
 *origin css:*
