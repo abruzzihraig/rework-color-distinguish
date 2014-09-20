@@ -6,6 +6,7 @@
 .bar {
   width: 20px;
   background: #999;
+  box-shadow: 5px 5px 5px contrast(#333), 10px 10px 10px contrast(#79fbc3);
 }
 .parent .child {
   line-height: 50px;
@@ -18,5 +19,5 @@ span {
   color: contrast(#555);
 }
 p {
-  background: contrast(#ddd);
+  background-color: contrast(#ddd);
 }
