@@ -1,4 +1,5 @@
-#rework-color-distinguish [![Build Status](https://travis-ci.org/abruzzihraig/rework-color-distinguish.svg?branch=master)](https://travis-ci.org/abruzzihraig/rework-color-distinguish) [![Coverage Status](https://coveralls.io/repos/abruzzihraig/rework-color-distinguish/badge.png?branch=master)](https://coveralls.io/r/abruzzihraig/rework-color-distinguish?branch=master) [![Code Climate](https://codeclimate.com/github/abruzzihraig/rework-color-distinguish/badges/gpa.svg)](https://codeclimate.com/github/abruzzihraig/rework-color-distinguish) 
+#rework-color-distinguish  
+[![Build Status](https://travis-ci.org/abruzzihraig/rework-color-distinguish.svg?branch=master)](https://travis-ci.org/abruzzihraig/rework-color-distinguish) [![Coverage Status](https://coveralls.io/repos/abruzzihraig/rework-color-distinguish/badge.png?branch=master)](https://coveralls.io/r/abruzzihraig/rework-color-distinguish?branch=master) [![Code Climate](https://codeclimate.com/github/abruzzihraig/rework-color-distinguish/badges/gpa.svg)](https://codeclimate.com/github/abruzzihraig/rework-color-distinguish) 
 
 rework-color-distinguish is a css preprocess plugin for [Rework](https://github.com/reworkcss/rework)
 
