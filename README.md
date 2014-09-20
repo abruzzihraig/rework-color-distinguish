@@ -6,7 +6,12 @@ rework-color-distinguish is a css preprocess plugin for [Rework](https://github.
 it is easier for users to see content including separating foreground from background.  
 More detail about distinguish contrast color in [WCAG](http://www.w3.org/TR/WCAG20/).  
 
-## Sample
+## Installation
+```
+$ npm install rework-color-distinguish
+```
+
+## Example
 *origin css:*
 ```
 .foo {
@@ -23,7 +28,7 @@ var css = rework(input)
     .use(distinguish())
     .toString();
 ```
-*compiled css:*
+*yields css:*
 ```
 .foo {
     background-color: #37f9b2;
