@@ -11,12 +11,18 @@
     "url": "git://github.com/abruzzihraig/rework-color-distinguish.git"
   },
   "keywords": [
-    "Rework",
+    "rework",
+    "rework-color-distinguish",
+    "rework-color-difference",
     "color-difference",
     "CIE2000",
     "contrast color"
   ],
-  "author": "何洋<abruzzi.hraig@gmail.com>",
+  "author": {
+    "name": "何洋",
+    "email": "abruzzi.hraig@gmail.com",
+    "url": "http://blog.angular.in"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/abruzzihraig/rework-color-distinguish/issues"
