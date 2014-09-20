@@ -1,22 +1,27 @@
 .foo {
   font-size: 12px;
   color: #333;
-  background: contrast(#333);
+  background: #000000;
 }
+
 .bar {
   width: 20px;
   background: #999;
 }
+
 .parent .child {
   line-height: 50px;
   background: #990;
 }
+
 .x {
-  color: contrast(#a3d93a);
+  color: #ffffff;
 }
+
 span {
-  color: contrast(#555);
+  color: #000000;
 }
+
 p {
-  background: contrast(#ddd);
+  background: #ffffff;
 }
