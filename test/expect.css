@@ -1,13 +1,13 @@
 .foo {
   font-size: 12px;
   color: #333;
-  background: #000000;
+  background: #ffffff;
 }
 
 .bar {
   width: 20px;
   background: #999;
-  box-shadow: 5px 5px 5px #000000, 10px 10px 10px #ffffff;
+  box-shadow: 5px 5px 5px #ffffff, 10px 10px 10px #000000;
 }
 
 .parent .child {
@@ -16,13 +16,13 @@
 }
 
 .x {
-  color: #ffffff;
-}
-
-span {
   color: #000000;
 }
 
+span {
+  color: #ffffff;
+}
+
 p {
-  background-color: #ffffff;
+  background-color: #000000;
 }

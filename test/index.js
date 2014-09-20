@@ -7,13 +7,13 @@ var input = read(__dirname + '/input.css', 'utf8');
 var expect = read(__dirname + '/expect.css', 'utf8').trim();
 
 var color_input = 'color: contrast(#333);';
-var color_expect = 'color: #000000;';
+var color_expect = 'color: #ffffff;';
 var background_color_input = 'background-color: contrast(#333);';
-var background_color_expect = 'background-color: #000000;';
+var background_color_expect = 'background-color: #ffffff;';
 var box_shadow_input = 'box-shadow: 5px 5px 5px contrast(#1b2d42), 10px 10px 10px contrast(#7960f3);';
-var box_shadow_expect = 'box-shadow: 5px 5px 5px #000000, 10px 10px 10px #ffffff;';
+var box_shadow_expect = 'box-shadow: 5px 5px 5px #ffffff, 10px 10px 10px #000000;';
 var background_input = 'background: url(xxx) contrast(#3bad42) no-repeat center center;';
-var background_expect = 'background: url(xxx) #ffffff no-repeat center center;';
+var background_expect = 'background: url(xxx) #000000 no-repeat center center;';
 
 function layout(property) {
     return '.foo {\n  '+property+'\n}';
