@@ -15,6 +15,13 @@ var box_shadow_expect = 'box-shadow: 5px 5px 5px #ffffff, 10px 10px 10px #000000
 var background_input = 'background: url(xxx) contrast(#3bad42) no-repeat center center;';
 var background_expect = 'background: url(xxx) #000000 no-repeat center center;';
 
+var dist_opt_1st = '#333';
+var dist_opt_2nd = '#888';
+var dist_opt_3rd = '#999';
+var dist_input = 'color: contrast(#111);';
+var dist_expect = 'color: #999999;';
+
+
 function layout(property) {
     return '.foo {\n  '+property+'\n}';
 }
@@ -67,6 +74,16 @@ describe('distinguish contrast value in different css propreties', function() {
     it(should_convert(box_shadow_input, box_shadow_expect), function() {
         var compiled = rework(layout(box_shadow_input)).use(distinguish()).toString().trim();
         var expect = layout(box_shadow_expect);
+        assert.equal(compiled, expect);
+    });
+});
+
+describe('rework-distinguish-color option parameter', function() {
+    it('should avaliable to specify two color, and get furthest color by distinguish', function() {
+        var compiled = rework(layout(dist_input))
+            .use(distinguish(dist_opt_1st, dist_opt_2nd, dist_opt_3rd))
+            .toString().trim();
+        var expect = layout(dist_expect);
         assert.equal(compiled, expect);
     });
 });
