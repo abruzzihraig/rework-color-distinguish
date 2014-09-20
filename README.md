@@ -1,6 +1,5 @@
-rework-color-distinguish
+rework-color-distinguish [![Build Status](https://travis-ci.org/abruzzihraig/rework-color-distinguish.svg?branch=master)](https://travis-ci.org/abruzzihraig/rework-color-distinguish)
 ========================
-
 rework-color-distinguish is a css preprocess plugin for [Rework](https://github.com/reworkcss/rework)
 
 it is easier for users to see content including separating foreground from background.  

@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/abruzzihraig/rework-color-distinguish",
   "dependencies": {
-    "color-diff": "^0.1.5",
-    "rework-visit": "^1.0.0"
+    "rework-visit": "^1.0.0",
+    "color-diff": "^0.1.5"
   },
   "devDependencies": {
     "mocha": "^1.21.4",
