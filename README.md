@@ -40,7 +40,7 @@ The default contrast colors are '#000000' and '#ffffff';
 
 
 ## Author
-Yang He <[abruzzi.hraig@gmail.com](mailto:abruzzi.hraig@gmail.com)>
+Yang He [abruzzi.hraig@gmail.com](http://mailto:abruzzi.hraig@gmail.com)
 
 ## Licence
 MIT
