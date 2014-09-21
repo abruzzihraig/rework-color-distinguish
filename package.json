@@ -1,6 +1,6 @@
 {
   "name": "rework-color-distinguish",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "rework-color-distinguish is a plugin for Rework, It is easy to seprate foreground from background.",
   "main": "lib/index.js",
   "scripts": {
